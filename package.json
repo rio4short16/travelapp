@@ -1,0 +1,29 @@
+{
+  "name": "travelapp",
+  "version": "1.0.0",
+  "description": "Travel App by Rio Carpio",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rio4short16/travelapp.git"
+  },
+  "keywords": [
+    "Travel",
+    "App"
+  ],
+  "author": "Rio Carpio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rio4short16/travelapp/issues"
+  },
+  "homepage": "https://github.com/rio4short16/travelapp#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.7"
+  }
+}
